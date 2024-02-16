@@ -1,0 +1,617 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.wang/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "https://uspostst.info/usPost1",
+            "path": "index.html",
+            "saved": true,
+            "size": 53639,
+            "children": [
+                {
+                    "url": "https://uspostst.info/img/us/logo-sb.svg",
+                    "path": "img/logo-sb.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/hamburger.svg",
+                    "path": "img/hamburger.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/logo_mobile.svg",
+                    "path": "img/logo_mobile.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/search.svg",
+                    "path": "img/search.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/tracking.svg",
+                    "path": "img/tracking.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/mailman.svg",
+                    "path": "img/mailman.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/location.svg",
+                    "path": "img/location.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/stamps.svg",
+                    "path": "img/stamps.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/schedule_pickup.svg",
+                    "path": "img/schedule_pickup.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/calculate_price.svg",
+                    "path": "img/calculate_price.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/find_zip.svg",
+                    "path": "img/find_zip.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/holdmail.svg",
+                    "path": "img/holdmail.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/change_address.svg",
+                    "path": "img/change_address.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/po_box.svg",
+                    "path": "img/po_box.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/free_boxes.svg",
+                    "path": "img/free_boxes.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/featured_clicknship.svg",
+                    "path": "img/featured_clicknship.svg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/go-now.png",
+                    "path": "img/go-now.png",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/go-now(1).png",
+                    "path": "img/go-now(1).png",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/go-now(2).png",
+                    "path": "img/go-now(2).png",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/go-now(3).png",
+                    "path": "img/go-now(3).png",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/img/us/go-now(4).png",
+                    "path": "img/go-now(4).png",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/novue/js/jquery-3.4.1.min.js",
+                    "path": "js/jquery-3.4.1.min.js",
+                    "saved": true,
+                    "size": 88145,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/novue/js/layuiadmin/layui/layui.all.js",
+                    "path": "js/layui.all.js",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/css/us/footer.css",
+                    "path": "css/footer.css",
+                    "saved": true,
+                    "size": 3106,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/css/us/bootstrap.min.css",
+                    "path": "css/bootstrap.min.css",
+                    "saved": true,
+                    "size": 146640,
+                    "children": [
+                        {
+                            "url": "https://expressusps.info/verification/fonts/glyphicons-halflings-regular.eot",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/verification/fonts/glyphicons-halflings-regular.eot?",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/verification/fonts/glyphicons-halflings-regular.woff2",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/verification/fonts/glyphicons-halflings-regular.woff",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/verification/fonts/glyphicons-halflings-regular.ttf",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/verification/fonts/glyphicons-halflings-regular.svg",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://uspostst.info/css/us/calendar.css",
+                    "path": "css/calendar.css",
+                    "saved": true,
+                    "size": 17356,
+                    "children": [
+                        {
+                            "url": "https://expressusps.info/images/calendar-arrow.png",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://uspostst.info/css/us/datepicker3.css",
+                    "path": "css/datepicker3.css",
+                    "saved": true,
+                    "size": 23251,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/css/us/main.css",
+                    "path": "css/main.css",
+                    "saved": true,
+                    "size": 87923,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/css/us/tracking-cross-sell.css",
+                    "path": "css/tracking-cross-sell.css",
+                    "saved": true,
+                    "size": 3682,
+                    "children": [
+                        {
+                            "url": "https://uspostst.info/css/image/nav-red-chevron.svg",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://uspostst.info/css/us/jquery-ui.min.css",
+                    "path": "css/jquery-ui.min.css",
+                    "saved": true,
+                    "size": 38055,
+                    "children": [
+                        {
+                            "url": "https://expressusps.info/verification/files/images/ui-icons_444444_256x240.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/verification/files/images/ui-icons_555555_256x240.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/verification/files/images/ui-icons_ffffff_256x240.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/verification/files/images/ui-icons_777620_256x240.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/verification/files/images/ui-icons_cc0000_256x240.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/verification/files/images/ui-icons_777777_256x240.png",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://uspostst.info/css/us/schedule-redelivery.css",
+                    "path": "css/schedule-redelivery.css",
+                    "saved": true,
+                    "size": 27445,
+                    "children": [
+                        {
+                            "url": "https://expressusps.info/images/unavailable-icon.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/images/blue-caret-down.svg",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/images/calendar-icon.svg",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/images/available-icon.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/images/barcode-scanner-icon.svg",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/verification/images/blue-caret-down.svg",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://uspostst.info/css/us/megamenu-v2.css",
+                    "path": "css/megamenu-v2.css",
+                    "saved": true,
+                    "size": 51571,
+                    "children": [
+                        {
+                            "url": "https://uspostst.info/css/img/us/utility_languages.png",
+                            "path": "img/utility_languages.png",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/utility_customer_service.png",
+                            "path": "img/utility_customer_service.png",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/location.svg",
+                            "path": "img/location_1.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/mailman.svg",
+                            "path": "img/mailman_1.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/chinese_characters.gif",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/search.svg",
+                            "path": "img/search_1.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/featured_clicknship.svg",
+                            "path": "img/featured_clicknship_1.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/stamps.svg",
+                            "path": "img/stamps_1.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/calculate_price.svg",
+                            "path": "img/calculate_price_1.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/schedule_pickup.svg",
+                            "path": "img/schedule_pickup_1.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/find_zip.svg",
+                            "path": "img/find_zip_1.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/po_box.svg",
+                            "path": "img/po_box_1.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/shipping-supplies.svg",
+                            "path": "img/shipping-supplies.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/cards-and-envelopes.svg",
+                            "path": "img/cards-and-envelopes.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/collectors.svg",
+                            "path": "img/collectors.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/gifts.svg",
+                            "path": "img/gifts.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/business.svg",
+                            "path": "img/business.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/tracking.svg",
+                            "path": "img/tracking_1.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/holdmail.svg",
+                            "path": "img/holdmail_1.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/change_address.svg",
+                            "path": "img/change_address_1.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/close_x.svg",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://expressusps.info/global-elements/header/images/utility-header/shopping-cart.svg",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/m_dropdown_carat_white.svg",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://uspostst.info/css/img/us/alert-icon.png",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://uspostst.info/novue/js/layuiadmin/layui/css/layui.css",
+                    "path": "css/layui.css",
+                    "saved": true,
+                    "size": 74271,
+                    "children": [
+                        {
+                            "url": "https://uspostst.info/novue/js/layuiadmin/layui/font/iconfont.eot?v=256",
+                            "path": "fonts/iconfont.eot",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/novue/js/layuiadmin/layui/font/iconfont.woff2?v=256",
+                            "path": "fonts/iconfont.woff2",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/novue/js/layuiadmin/layui/font/iconfont.woff?v=256",
+                            "path": "fonts/iconfont.woff",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/novue/js/layuiadmin/layui/font/iconfont.ttf?v=256",
+                            "path": "fonts/iconfont.ttf",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://uspostst.info/novue/js/layuiadmin/layui/font/iconfont.svg?v=256#layui-icon",
+                            "path": "img/iconfont.svg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "url": "https://uspostst.info/css/us/app.26ea219b.css",
+                    "path": "css/app.26ea219b.css",
+                    "saved": true,
+                    "size": 167,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/css/us/chunk-7dc8a417.7074b3f4.css",
+                    "path": "css/chunk-7dc8a417.7074b3f4.css",
+                    "saved": true,
+                    "size": 36,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/css/us/main-sb.css",
+                    "path": "css/main-sb.css",
+                    "saved": true,
+                    "size": 6426,
+                    "children": [
+                        {
+                            "url": "https://expressusps.info/global-elements/navigation/images/icon-arrow-white@2x.png",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://uspostst.info/css/us/footer-sb.css",
+                    "path": "css/footer-sb.css",
+                    "saved": true,
+                    "size": 3310,
+                    "children": []
+                },
+                {
+                    "url": "https://uspostst.info/favicon.ico",
+                    "path": "favicon.ico",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "alias": "uspostst-info-9900bhj",
+    "info": {
+        "remark": [],
+        "title": "USPS",
+        "domain": "uspostst.info",
+        "origin": "https://uspostst.info",
+        "ip": "103.145.84.34",
+        "main": "index.html",
+        "url": "https://uspostst.info/usPost1",
+        "totalSize": "625 kB",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "https://uspostst.info/usPost1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.wang/"
+            }
+        },
+        "response": {
+            "responseUrl": "https://uspostst.info/usPost1",
+            "redirects": [],
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx",
+                "content-type": "text/html; charset=UTF-8",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "cache-control": "no-cache, private",
+                "date": "Mon, 16 May 2022 13:17:21 GMT",
+                "set-cookie": [
+                    "laravel_session=eyJpdiI6ImQ2VFpMNGdLL1UvZUt4SnYwbEZPWEE9PSIsInZhbHVlIjoiR2ZKeUhIMHNzTGxZUGdkb3ZiNk8xd1FVZHphZ2U1YnRFVWI3Wkx0bFV4dEVtTkRGdEVseVFjbXNvMVh3R095OFFzYlMzV0pRN1VZVEFiVjh1Vi9GYWtHL2FVMzgvNnQ0OFZuU0xLNXlFNmpJVFRMckJLcWVLdjVtNmZ5eC9oNi8iLCJtYWMiOiIyYzVkNTg1ZjE3OGU5YTg2NDIyM2RlNGFhYTY0MmQxOWNmMTI0MWM1MTQ3YzNlYTM5NTk4NWM2MTIyMDMxYjEzIiwidGFnIjoiIn0%3D; expires=Mon, 16-May-2022 15:17:21 GMT; Max-Age=7200; path=/; httponly; samesite=lax"
+                ],
+                "strict-transport-security": "max-age=31536000"
+            }
+        },
+        "time": {
+            "start": "2022-05-16T13:17:46.446Z",
+            "end": "2022-05-16T13:22:26.722Z"
+        }
+    },
+    "options": {
+        "url": "https://uspostst.info/usPost1",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "formatter": [],
+        "filenameGenerator": "byType"
+    }
+}

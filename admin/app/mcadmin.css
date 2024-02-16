@@ -1,0 +1,27 @@
+body {
+	font-family: "Microsoft YaHei";
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 15pt;
+}
+
+.font {
+	font-family: "Microsoft YaHei";
+	font-size:15pt;
+	color: #000000;
+	text-decoration: none;
+}
+.bigfont {
+	font-family: "Microsoft YaHei";
+	font-size:15pt;
+	font-weight: bold;
+	color: #000000;
+}
+.redfont {
+	font-family: "Microsoft YaHei";
+	font-size: 15pt;
+	color: #000066;
+	font-weight: bold;
+}

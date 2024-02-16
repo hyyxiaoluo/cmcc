@@ -1,0 +1,108 @@
+body{
+    background-color: #f5f5f5;
+}
+#body{
+    height: auto;
+}
+#body .div_top{
+    text-align: center;
+    border-bottom: 1px solid #f2f2f2;
+	    padding-bottom: 22px;
+		padding-top: 22px;
+}
+#body .div_top>div{
+    background-color: #15c88b;
+	border-radius: 10px;
+    color: #000;
+    display: inline-block;
+    padding: 1px;
+
+}
+#body .div_top>div>div{
+
+    letter-spacing:14px;
+	border-radius: 10px;
+    font-weight: 600;
+    font-size: 22px;
+    width: 300px;
+	background: #fff;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+#body .div_top>div.new{
+    background: linear-gradient(#fff, #3aff70);
+    color: #000;
+    box-shadow: 0px 4px 10px 0px rgba(58, 255, 112, 0.32);
+}
+#body .div_top>div.new>div{
+    border-color: #000;
+}
+
+
+#body .div_form{
+    padding: 20px;
+    border-bottom: 12px solid #f2f2f2;
+}
+#body .div_form .div_text{
+
+}
+#body .div_form .div_text>div{
+    overflow: hidden;
+    margin-top: 5px;
+}
+#body .div_form .div_text>div:nth-child(1){
+    margin-top: 0px;
+}
+#body .div_form .div_text .div_key{
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    font-size: 0.9em;
+}
+#body .div_form .div_text .div_val{
+    overflow: hidden;
+    text-align: center;
+    line-height: 20px;
+    font-size: 0.9em;
+}
+#body .div_form .div_text .div_val.div_valName{
+    font-weight: 600;
+	font-size: 1em;
+}
+#body .div_form .div_text .div_val.div_valNub{
+    color: #5495f6;
+    font-weight: bold;
+}
+#body .div_form .div_button{
+    color: #fff;
+    background-color: #5495f6;
+    box-shadow: 0px 4px 10px 0px
+    rgba(84, 149, 246, 0.25);
+    border-radius: 4px;
+    text-align: center;
+    height: 44px;
+    line-height: 44px;
+    font-size: 0.9em;
+    margin: 50px 0px 50px 0px;
+}
+
+#body .div_explain{
+    padding: 20px;
+}
+#body .div_explain .div_name{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-weight: bold;
+}
+#body .div_explain .div_text{
+
+}
+#body .div_explain .div_text p{
+    margin: 0px;
+    line-height: 20px;
+    font-size: 0.8em;
+}
+#body .div_explain .div_text span{
+    color: #ff2424;
+}

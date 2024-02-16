@@ -1,0 +1,303 @@
+#body{
+
+}
+#body .div_select{
+    background-color: #fff;
+    padding: 20px;
+}
+#body .div_select .div_name{
+    font-size: 0.9em;
+    height: 30px;
+}
+#body .div_select .div_name img{
+    height: 100%;
+    float: left;
+}
+#body .div_select .div_name div{
+    height: 100%;
+    overflow: hidden;
+    line-height: 30px;
+    padding-left: 8px;
+    font-weight: bold;
+}
+#body .div_select .div_select_se{
+    border: 1px solid #15c88b;
+    height: 32px;
+    margin-top: 15px;
+}
+#body .div_select .div_select_se select{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding:0px 8px;
+    font-size: 0.9em;
+}
+
+#body .div_input{
+    background-color: #fff;
+	padding-bottom: 20px;
+    margin-top: 0px;
+padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#body .div_input .div_name{
+    font-size: .9em;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+#body .div_input .div_licensePlate{
+    margin-bottom: 15px;
+    border: 1px solid #15c88b;
+    height: 44px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#body .div_input .div_licensePlate ul{
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+#body .div_input .div_licensePlate li{
+    height: 100%;
+    border-left: 1px solid #15c88b;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    position: relative;
+
+}
+/*#body .div_input .div_licensePlate li:nth-child(8){*/
+    /*display: none;*/
+/*}*/
+#body .div_input .div_licensePlate li input{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width: 100%;
+    height: 44px;
+    border: 0px;
+    background-color: initial;
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: 900;
+	color: #15c88b;
+    line-height: 44px;
+}
+#body .div_input .div_licensePlate li:nth-child(1){
+    border-left: 0px;
+    background-color:#15c88b ;
+    color: #fff;
+}
+#body .div_input .div_licensePlate li:nth-child(1) input{
+    color: #fff;
+}
+#body .div_input .div_licensePlate li.li_show{
+    border-bottom: 1px solid #fff;
+    animation:li_show 1s infinite linear;
+    /*-moz-animation:li_show 5s; !* Firefox *!*/
+    /*-webkit-animation:li_show 5s; !* Safari and Chrome *!*/
+    /*-o-animation:li_show 5s; !* Opera *!*/
+}
+@keyframes li_show
+{
+    0% { border-bottom: 1px solid #fff;}
+    50% { border-bottom: 0px}
+    100% { border-bottom: 1px solid #fff;}
+}
+
+/*@-moz-keyframes li_show !* Firefox *!*/
+/*{*/
+    /*0% { border-bottom: 1px solid #ff0000;}*/
+    /*100% { border-bottom: 1px solid initial;}*/
+/*}*/
+
+/*@-webkit-keyframes li_show !* Safari and Chrome *!*/
+/*{*/
+    /*0% { border-bottom: 1px solid #ff0000;}*/
+    /*100% { border-bottom: 1px solid initial;}*/
+/*}*/
+
+/*@-o-keyframes li_show !* Opera *!*/
+/*{*/
+    /*0% { border-bottom: 1px solid #ff0000;}*/
+    /*100% { border-bottom: 1px solid initial;}*/
+/*}*/
+#body .div_input .div_check{
+    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -moz-box;
+}
+#body .div_input .div_check .div_left{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #ddd;
+    margin-right: 8px;
+}
+#body .div_input .div_check .div_left img{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#body .div_input .div_check .div_left.check{
+    border: 0px;
+}
+#body .div_input .div_check .div_left.check img{
+    display: block;
+}
+#body .div_input .div_check .div_right{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    font-size: 0.9em;
+    display: grid;
+    align-content: center;
+}
+
+
+#body .div_input .div_button1{
+    color: #fff;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background-color: #15c88b;
+    rgba(84, 149, 246, 0.25);
+    border-radius: 6px;
+    font-size: 0.9em;
+}
+
+#body .div_input .div_button2{
+    color: #fff;
+    width: 48%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background-color: #2196f342;
+    rgba(84, 149, 246, 0.25);
+    border-radius: 6px;
+    font-size: 0.9em;
+}
+
+#body .div_explain{
+    background-color: #fff;
+    margin-top: 12px;
+    padding: 20px 20px 50px 20px;
+}
+#body .div_explain .div_name{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-weight: bold;
+}
+#body .div_explain .div_text{
+
+}
+#body .div_explain .div_text p{
+    margin: 0px;
+    font-size: 0.8em;
+    line-height: 24px;
+}
+
+
+[v-cloak] {
+    display: none !important;
+}
+
+
+
+
+#keycontent{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+#keycontent #keyboard{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    /*height: 207px;*/
+    background-color: rgba(0, 0, 0, .75);
+    font-size: 14px;
+    z-index: 9999;
+}
+#keycontent #keyMask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+#keyboard .keyTitle{
+    height: 40px;
+    line-height: 40px;
+    font-size: 1em;
+    text-align: right;
+    background-color: #ffffff;
+    border-top: 1px solid #f2f2f2;
+    color: #15c88b;
+    padding: 0px 12px;
+}
+#keyboard .keyContent{
+    padding: 4px 2px 4px 2px;
+    position: relative;
+}
+#keyboard .keyContent ul{
+    /*display: -webkit-box;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    width: 100%;
+    overflow: hidden;
+}
+#keyboard .keyContent li{
+    /*-webkit-box-flex: 1;*/
+    /*-webkit-flex: 1;*/
+    /*flex: 1;*/
+    float: left;
+    padding: 2px 2px;
+    width: 10%;
+}
+#keyboard .keyContent li.li_1{
+    margin-left: 5%;
+}
+#keyboard .keyContent li.li_2{
+    margin-left: 15%;
+}
+#keyboard .keyContent li>div{
+    height: 45px;
+    line-height: 45px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1em;
+    box-shadow: 0px 2px 2px 0px rgb(152, 155, 160);
+}
+#keyboard .keyContent .button{
+    padding: 2px 2px;
+    width: 15%;
+}
+#keyboard .keyContent .button>div{
+    height: 45px;
+    line-height: 45px;
+    background-color: #a8b0bc;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1em;
+    box-shadow: 0px 2px 2px 0px rgb(152, 155, 160);
+}
+#keyboard .keyContent .button_tab{
+    position: absolute;
+    left: 2px;
+    bottom: 4px;
+}
+#keyboard .keyContent .button_delete{
+    position: absolute;
+    right: 2px;
+    bottom: 4px;
+}

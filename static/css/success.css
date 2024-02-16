@@ -1,0 +1,61 @@
+body{
+    background-color: #fff;
+}
+#body{
+    height: 100%;
+}
+#body .div_top{
+    padding-top: 50px ;
+    text-align: center;
+}
+#body .div_top img{
+    height: 80px;
+}
+#body .div_top div{
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#body .div_t{
+    padding-top: 40px;
+    text-align: center;
+}
+#body .div_t>div{
+    padding: 4px 0px;
+    font-size: 0.9em;
+    /*font-weight: bold;*/
+}
+#body .div_t>div span{
+    color: #15c88b;
+}
+#body .div_explain{
+    padding: 50px 20px 20px 20px;
+}
+#body .div_explain>div{
+    background-color: #f6f6f6;
+    padding: 12px;
+}
+#body .div_explain>div>div{
+    overflow: hidden;
+    margin-top: 8px;
+}
+#body .div_explain>div>div:nth-child(1){
+    margin-top: 0px;
+}
+#body .div_explain>div>div .div_key{
+    float: left;
+    line-height: 20px;
+    font-size: 0.9em;
+    color: #b0b0b0;
+}
+#body .div_explain>div>div .div_val{
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 0.9em;
+    text-align: right;
+    color: #b0b0b0;
+}
+#body .div_explain>div>div .div_val.div_val_nub{
+    color: #333;
+    font-weight: bold;
+}

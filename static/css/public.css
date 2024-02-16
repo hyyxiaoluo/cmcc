@@ -1,0 +1,26 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    height: 100%;
+    background-color: #f2f2f2;
+    font-family: "SimHei";
+    color: #333;
+    font-size: 16px;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
